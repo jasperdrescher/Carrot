@@ -29,7 +29,7 @@ public:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Profile")
 	UDataTable* VillagerProfilesHandle;
 
-	UPROPERTY(BlueprintReadOnly, Category = "Profile")
+	UPROPERTY(BlueprintReadWrite, Category = "Profile")
 	FString Name;
 
 	UPROPERTY(BlueprintReadWrite, Category = "Resource")
