@@ -3,6 +3,16 @@
 	"EngineAssociation": "5.5",
 	"Category": "Samples",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "Carrot",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "GeometryScripting",
