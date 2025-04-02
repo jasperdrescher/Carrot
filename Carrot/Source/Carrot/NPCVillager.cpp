@@ -17,7 +17,9 @@ void ANPCVillager::BeginPlay()
 {
 	Super::BeginPlay();
 
-	const TArray<FName> villagerProfiles = VillagerProfilesHandle->GetRowNames();
+	Name = "Steve";
+
+	//const TArray<FName> villagerProfiles = VillagerProfilesHandle->GetRowNames();
 	// iterate
 }
 

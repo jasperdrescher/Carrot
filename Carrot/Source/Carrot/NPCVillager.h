@@ -26,9 +26,15 @@ public:
 	// Called to bind functionality to input
 	//virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
-	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Data")
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Profile")
 	UDataTable* VillagerProfilesHandle;
 
-	UPROPERTY(BlueprintReadOnly, Category = "Data")
+	UPROPERTY(BlueprintReadOnly, Category = "Profile")
 	FString Name;
+
+	UPROPERTY(BlueprintReadWrite, Category = "Resource")
+	int ResourceQuantity;
+
+	UPROPERTY(BlueprintReadWrite, Category = "Job")
+	FName NewJobName;
 };
